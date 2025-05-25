@@ -1,0 +1,34 @@
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;es&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Pymeai.es - Soluciones de IA para PYMEs&lt;/title&gt;
+    &lt;script src=&quot;https://cdn.tailwindcss.com&quot;&gt;&lt;/script&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;style&gt;
+        body {
+            font-family: &#39;Inter&#39;, sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hero-bg {
+            background-color: #f0f7ff; /* Light blue background */
+        }
+        .section-title {
+            @apply text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800;
+        }
+        .service-card {
+            @apply bg-white rounded-xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300 ease-in-out h-full flex flex-col items-center text-center; /* Centered content */
+        }
+        .service-card svg { /* Styling for SVGs - Made icons smaller */
+            @apply w-12 h-12 mb-4 text-sky-500; /* Changed from w-16 h-16 */
+        }
+        .service-card h3 {
+            @apply text-xl font-semibold text-sky-600 mb-3;
+        }
+        .service-card p {
+            @apply text-gray-600 text-sm mb-4 flex-grow;
+        }
+        /* Price class removed, so no specific style needed anymore */
+        .cta-button {
+            @apply bg-sky-500 hover:
